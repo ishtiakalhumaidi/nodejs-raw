@@ -1,7 +1,7 @@
 import http, { IncomingMessage, Server, ServerResponse } from "http";
 import config from "./config/config";
 import { RouteHandler, routes } from "./helpers/RouteHandler";
-import "./routes/routes";
+import "./routes";
 import findDynamicRoute from "./helpers/dynamicRouteHandler";
 
 const server: Server = http.createServer(
